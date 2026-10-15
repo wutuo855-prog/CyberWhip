@@ -1,0 +1,22 @@
+﻿OpenWhip reference and audio attribution
+--------------------------------------
+
+Source: the user-supplied OpenWhip-main.zip.
+Project name/version in package.json: openwhip 1.1.0.
+Repository declared by the supplied package:
+https://github.com/GitFrog1111/OpenWhip
+License declared by the supplied package.json: MIT.
+
+The rope simulation and interaction are based on the supplied project as a
+reference and reimplemented for Windows .NET Framework / Win32.
+The five original sound clips (A.mp3 to E.mp3) were converted to mono,
+22,050 Hz, 16-bit PCM WAV with reduced amplitude for SoundPlayer playback.
+No Electron, koffi, npm, or other original runtime dependencies are bundled.
+The supplied source ZIP did not contain a separate LICENSE file.
+
+Microsoft API reference used during implementation:
+https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-updatelayeredwindow
+https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendinput
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/
+
+https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos
